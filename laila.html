@@ -5,85 +5,133 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV lailanoviasari</title>
 
-        
+        <!-- begin :: css bootstrap online -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <!-- end :: css bootstrap online -->
     </head>
     <body>
-        <center>
-            <table width="75%" cellpadding="10">
-                <tr>
-                    <td colspan="3" align="center"><h1>Curriculum Vitae</h1></td>
-                </tr>
-                <tr>
-                    <td rowspan="3">
-                        <img src="assets/avatar.png" alt="profilLaila"
-                            width="250">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Laila Novia Sari</h3>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Sapiente, voluptas possimus odit
-                        perspiciatis ab, dicta repudiandae beatae, sed
-                        doloremque quis magnam. Perferendis qui veniam explicabo
-                        quos enim magnam doloremque nesciunt cupiditate, cum
-                        distinctio? Fugit alias delectus odio, suscipit illo
-                        maxime beatae quam eius sed, perferendis sint libero ea,
-                        saepe quae?
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <table border="1" height="350" cellpadding="10">
-                            <tr>
-                                <td width="25%">Education</td>
-                                <td>
-                                    <ul>
-                                        <li>SMA Negeri 1 Wonoayu, Sidoarjo. MIPA</li>
-                                        <li>Universitas Negeri Surabaya, S1
-                                            Teknik
-                                            Informatika</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="25%">Experience</td>
-                                <td>
-                                    <ol>
-                                        <li>Agustus - Sekarang, 2023. Eduwork
-                                            sebagai peserta
-                                            SIB Batch 5</li>
-                                        <li>Agustus - September, 2023. Dicoding
-                                            sebagai peserta
-                                            beasiswa Dicoding for University</li>
-                                        <li>Maret - April, 2023. Dicoding
-                                            sebagai
-                                            peserta kelas
-                                            DBS Foundation Coding Camp</li>
-                                        <li>Januari - Februari, 2023. RSUD Dr.
-                                            Soetomo sebagai
-                                            Frontend Developer</li>
-                                    </ol>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="25%">Achievement</td>
-                                <td>
-                                    <ul>
-                                        <li>Anggap aja pencapaian saya banyak
-                                            xixi</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </center>
+        <!-- begin :: content -->
+        <div
+            class="container text-center align-items-center my-5">
+            <!-- begin :: title -->
+            <h1 class="py-3 bg-dark text-light">Curriculum Vitae</h1>
+            <!-- end :: title -->
+            <div class="row py-3 mx-1 border border-dark border-3">
+                <div class="col-4">
+                    <!-- begin :: avatar -->
+                    <img class="border border-dark border-5"
+                        src="assets/avatar.png" alt="profilLaila" width="250">
+                    <!-- end :: avatar -->
+                </div>
 
+                <div class="col-8 text-start">
+                    <!-- begin :: biodata -->
+                    <h4>Laila Novia Sari</h4>
+                    <p class="m-0">S1-Teknik Informatika</p>
+                    <p>Universitas Negeri Surabaya</p>
+                    <!-- end :: biodata -->
+
+                    <!-- begin :: overview -->
+                    <div class="my-5">
+                        <h5>Overview</h5>
+                        <p>Saya merupakan mahasiswa semester 7 yang sedang
+                            mengikuti MSIB batch 5 2023, bersama dengan Eduwork.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quam corrupti consequatur nobis impedit nulla,
+                            suscipit eos dolores eligendi accusantium quos!</p>
+                    </div>
+                    <!-- end :: overview -->
+
+                    <!-- <div class="my-4">
+                        <h5>Experience</h5>
+                        <ol>
+                            <li>Agustus - Sekarang, 2023. Eduwork
+                                sebagai peserta
+                                SIB Batch 5</li>
+                            <li>Agustus - September, 2023. Dicoding
+                                sebagai peserta
+                                beasiswa Dicoding for University</li>
+                            <li>Maret - April, 2023. Dicoding
+                                sebagai
+                                peserta kelas
+                                DBS Foundation Coding Camp</li>
+                            <li>Januari - Februari, 2023. RSUD Dr.
+                                Soetomo sebagai
+                                Frontend Developer</li>
+                        </ol>
+                    </div>
+
+                    <div class="my-4">
+                        <h5>Achievement</h5>
+                        <ol>
+                            <li>capaian 1</li>
+                            <li>capaian 2</li>
+                            <li>capaian 3</li>
+                            <li>anggap aja capaian saya banyak wkwk</li>
+                        </ol>
+                    </div>
+
+                    <div class="my-4">
+                        <h5>Education</h5>
+                        <ul>
+                            <li>SMA Negeri 1 Wonoayu, Sidoarjo. MIPA</li>
+                            <li>Universitas Negeri Surabaya, S1
+                                Teknik
+                                Informatika</li>
+                        </ul>
+                    </div> -->
+
+                    <!-- begin :: table experience, achievement, and education -->
+                    <table
+                        class="table table-primary table-bordered border-dark border-2">
+                        <tr>
+                            <td width="25%">Experience</td>
+                            <td>
+                                <ol>
+                                    <li>Agustus - Sekarang, 2023. Eduwork
+                                        sebagai peserta
+                                        SIB Batch 5</li>
+                                    <li>Agustus - September, 2023. Dicoding
+                                        sebagai peserta
+                                        beasiswa Dicoding for University</li>
+                                    <li>Maret - April, 2023. Dicoding sebagai
+                                        peserta kelas
+                                        DBS Foundation Coding Camp</li>
+                                    <li>Januari - Februari, 2023. RSUD Dr.
+                                        Soetomo sebagai
+                                        Frontend Developer</li>
+                                </ol>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="25%">Achievement</td>
+                            <td>
+                                <ul>
+                                    <li>Anggap saja capaian saya banyak wkwk</li>
+                                    <li>Anggap saja capaian saya banyak wkwk</li>
+                                    <li>Anggap saja capaian saya banyak wkwk</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="25%">Education</td>
+                            <td>
+                                <ul>
+                                    <li>SMA Negeri 1 Wonoayu, Sidoarjo. MIPA</li>
+                                    <li>Universitas Negeri Surabaya, S1 Teknik
+                                        Informatika</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- end :: table experience, achievement, and education -->
+                </div>
+            </div>
+        </div>
+        <!-- end :: content -->
     </body>
 </html>
